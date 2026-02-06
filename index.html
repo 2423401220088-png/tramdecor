@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trạm Decor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F6F3EE;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #5F8F6F;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: #E2EFE7;
+    }
+    .hero h1 {
+      font-size: 28px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #5F8F6F;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #5F8F6F;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #5F8F6F;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+    }
+    button {
+      background: #5F8F6F;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#about">Về Trạm</a>
+    <a href="#shop">Sản phẩm</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Trạm Decor – Chạm vào thiên nhiên, chạm vào bình yên</h1>
+  <p>Ghế Trạm, chọn một chậu cây nhỏ, mang thiên nhiên về nhà và biến không gian sống trở nên thư thái hơn mỗi ngày.</p>
+  <a class="btn" href="#shop">Mua ngay</a>
+  <a class="btn" href="#about">Khám phá Trạm</a>
+</div>
+
+<section>
+  <h2>Sản phẩm nổi bật</h2>
+  <div class="products">
+    <div class="card">Lưỡi Hổ Mini<br>89.000đ</div>
+    <div class="card">Trầu Bà Leo<br>129.000đ</div>
+    <div class="card">Kim Tiền Mini<br>149.000đ</div>
+    <div class="card">Bàng Singapore Mini<br>179.000đ</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Câu chuyện của Trạm</h2>
+  <p>Chúng mình gọi nơi này là “Trạm” vì ai cũng cần một điểm dừng giữa nhịp sống vội vã. Trạm Decor không chỉ bán cây hay đồ trang trí mà còn mang lại cảm giác bình yên.</p>
+</section>
+
+<section>
+  <h2>Vì sao chọn Trạm Decor?</h2>
+  <ul>
+    <li>Cây khỏe mỗi ngày</li>
+    <li>Đóng gói cẩn thận</li>
+    <li>Tư vấn 1:1</li>
+    <li>Hỗ trợ đổi trả</li>
+  </ul>
+</section>
+
+<section id="shop">
+  <h2>Sản phẩm</h2>
+  <p>Mang thiên nhiên vào từng góc nhỏ trong căn nhà bạn.</p>
+</section>
+
+<section id="blog">
+  <h2>Sống xanh cùng Trạm</h2>
+  <ul>
+    <li>Mẹo chăm cây trong phòng máy lạnh</li>
+    <li>Decor góc học tập xanh</li>
+    <li>Cây phong thủy cho sinh viên</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Liên hệ</h2>
+  <form>
+    <input placeholder="Họ tên">
+    <input placeholder="Email">
+    <textarea placeholder="Nội dung"></textarea>
+    <button>Gửi</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Trạm Decor. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
